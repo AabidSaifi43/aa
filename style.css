@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+}
+
+
+.heart{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+.heart::after,
+.heart::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10%;
+}
+.heart::after{
+    top: -40px;
+}
+.heart::before{
+    left: -40px;
+}
+
+/* h  */
+
+
+.h{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+.h::after,
+.h::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20%;
+}
+.h::after{
+    top: -45px;
+}
+.h::before{
+    left: -45px;
+}
+
+/* he  */
+
+
+.he{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+.he::after,
+.he::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 30%;
+}
+.he::after{
+    top: -50px;
+}
+.he::before{
+    left: -50px;
+}
+
+/* hea  */
+
+.hea{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+.hea::after,
+.hea::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 40%;
+}
+.hea::after{
+    top: -50px;
+}
+.hea::before{
+    left: -50px;
+}
+
+
+/* hear  */
+
+
+.hear{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+.hear::after,
+.hear::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.hear::after{
+    top: -50px;
+}
+.hear::before{
+    left: -50px;
+}
